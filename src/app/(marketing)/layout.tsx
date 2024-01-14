@@ -1,3 +1,5 @@
+import { Navbar } from "./_components/navbar";
+
 export default function MarketingLayout({
   children,
 }: {
@@ -5,6 +7,7 @@ export default function MarketingLayout({
 }) {
   return (
     <div className="h-full bg-slate-100">
+      <Navbar />
       <main className="bg-slate-100 pb-20 pt-32">{children}</main>
     </div>
   );

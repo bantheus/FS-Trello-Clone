@@ -2,15 +2,15 @@ import { Button } from "@/components/ui/button";
 import { headingFont, textFont } from "@/lib/fonts";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import { Badge } from "./components/badge";
-import { TitleCard } from "./components/title-card";
+import { Badge } from "./_components/badge";
+import { TitleCard } from "./_components/title-card";
 
 export default function MarketingPage() {
   return (
     <div className="flex flex-col items-center justify-center ">
       <div
         className={cn(
-          "flex flex-col items-center justify-center gap-14",
+          "flex flex-col items-center justify-center gap-14 px-4 md:px-0",
           headingFont.className,
         )}
       >
